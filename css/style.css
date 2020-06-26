@@ -1,0 +1,592 @@
+body {
+    background: #F9F9F9;
+}
+
+.header {
+    background-color: #EBEBEB;
+    padding: 4% 0%;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.eye {
+    height: 2vw;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+
+.eye:hover {
+    cursor: pointer;
+}
+
+.input-box {
+    position: relative;
+}
+
+label {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    pointer-events: none;
+    color: #14B8D4;
+    width: 110%;
+    font-size: 2.5vw;
+}
+
+
+
+.researcher-option {
+    font-size: 3vw;
+}
+
+.eg {
+    font-size: 2.5vw;
+}
+
+.email-info {
+    font-size: 2vw;
+    margin: 10% 0%;
+    color: darkgrey;
+}
+
+.research-option-img {
+    width: 10vw;
+    display: block;
+    margin: auto;
+    float: right;
+    margin-top: -8%;
+}
+
+.box__uploading,
+.box__success,
+.box__error {
+    display: none;
+}
+
+.middle {
+    font-size: 5vw;
+    text-align: center;
+    margin-left: -1.2vw;
+}
+
+.no-bg {
+    background-color: transparent;
+    border: none;
+
+    float: right;
+}
+
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.verif input {
+    height: 8vw;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.qmark {
+    height: 2.5vw;
+    margin-top: -10vw;
+}
+
+.qmark-right {
+    position: relative;
+    float: right;
+    z-index: 99 !important;
+    right: -4vw;
+    margin-top: -6vw;
+}
+
+.qmark-right:hover {
+    cursor: pointer;
+}
+
+.no-bg::after {
+    outline: none;
+}
+
+input {
+    border: 1px solid #14B8D4;
+}
+
+.almost-there {
+    padding: 4% 2%;
+    background-color: #14B8D4;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 3vw;
+    margin: 5% 0%;
+    border-radius: 10px;
+}
+
+.work-type {
+    width: 100%;
+    padding: 0% 2%;
+    display: table-cell;
+    background-color: #14B8D4;
+    color: white;
+    height: 15vw;
+    font-size: 2.3vw;
+    text-align: center;
+    margin: auto;
+    border: 5px solid #F9F9F9;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.work-type:hover {
+    background-color: #EBEBEB;
+}
+
+.work-type p {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+button:hover,
+.submit:hover {
+    cursor: pointer;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 10vw;
+}
+
+.complete {
+    background-color: #14B8D4;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+    font-size: 1.5vw;
+}
+
+
+
+.researcher {
+    font-size: 5.1vw;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10%;
+
+}
+
+.select {
+    text-align: left;
+    font-size: 3vw;
+    margin-bottom: 10%;
+}
+
+.study {
+    font-size: 2.5vw;
+    margin-bottom: 10%;
+}
+
+.input {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+::placeholder {
+    color: #14B8D4;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #14B8D4;
+}
+
+::-ms-input-placeholder {
+    color: #14B8D4;
+}
+
+
+.accept {
+    float: right;
+    font-size: 2vw;
+}
+
+
+.upload-image {
+    width: 70%;
+    font-size: 1.8vw;
+    margin: auto;
+    padding: 1%;
+}
+
+.submit {
+    margin-top: 3%;
+    font-size: 2.5vw;
+    color: white;
+    background: #14B8D4;
+    border-style: none;
+    padding: 3% 1%;
+}
+
+.upload {
+    padding: 10% 2%;
+    color: #14B8D4;
+    background: white;
+    width: 100%;
+    text-align: center !important;
+    font-size: 4vw;
+
+}
+
+
+
+.skip {
+    text-align: center;
+    padding: 5%;
+}
+
+.skip a {
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+
+.upload button {
+    width: 50%;
+    margin-top: 10%;
+    border: none;
+    background-color: #14B8D4;
+    color: white;
+    text-align: center;
+}
+
+.researcher-option {
+
+    margin-top: 2%;
+    font-size: 1.5vw;
+    padding: 5% 0%;
+}
+
+.researcher-option:hover {
+    background-color: #14B8D4;
+    cursor: pointer;
+    color: white;
+}
+
+.right-arrow {
+    display: block;
+    height: 8vw;
+    margin: auto;
+}
+
+.login {
+    color: #14B8D4;
+    padding: 10% 0%;
+    font-size: 2vw;
+}
+
+.checkbox {
+    border: 1px solid #14B8D4;
+}
+
+.researcher-option .heading {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: .2;
+}
+
+
+/************************************************************************************************************************************************************************************************************************ MEDIA QUERY *************************************************************************************************************************************************************************************************/
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        background: #F9F9F9;
+        padding: 0% 20%;
+    }
+
+    label,
+    .submit {
+        font-size: 1.3vw;
+    }
+
+    .eye {
+        height: 1.5vw;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label {
+        top: -1%;
+        transform: scale(.7, .7);
+        text-align: right;
+        font-weight: bold;
+
+    }
+
+    .header {
+        background-color: #EBEBEB;
+        padding: 3% 0%;
+
+    }
+
+    .select {
+        font-size: 3vw;
+    }
+
+    .researcher-option .heading {
+        font-size: 1.5vw;
+        font-weight: 500;
+        line-height: .2;
+    }
+
+    .eg {
+        font-size: 1vw;
+    }
+
+    .email-info {
+        font-size: 2vw;
+        margin: 5% 0%;
+        color: darkgrey;
+    }
+
+    .research-option-img {
+        width: 5vw;
+        display: block;
+        margin: auto;
+        float: right;
+        margin-top: -8%;
+    }
+
+
+    .middle {
+        font-size: 5vw;
+        text-align: center;
+        margin-left: -1.2vw;
+    }
+
+
+
+
+    .verif input {
+        height: 8vw;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .qmark {
+        height: 2vw;
+        margin-top: -5vw;
+    }
+
+    .qmark-right {
+        position: relative;
+        float: right;
+        right: -4vw;
+        margin-top: -4vw;
+    }
+
+
+    .almost-there {
+        padding: 2% 1%;
+        background-color: #14B8D4;
+        width: 100%;
+        border: none;
+        color: white;
+        font-size: 2vw;
+        margin: 5% 0%;
+        border-radius: 10px;
+    }
+
+    .work-type {
+        width: 100%;
+        padding: 0% 2%;
+        display: table-cell;
+        background-color: #14B8D4;
+        color: white;
+        height: 10vw;
+        font-size: 1.8vw;
+        text-align: center;
+        margin: auto;
+        border: 5px solid #F9F9F9;
+        border-radius: 10px;
+        vertical-align: middle;
+    }
+
+
+    .work-type p {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        height: 6vw;
+    }
+
+    .complete {
+        background-color: #14B8D4;
+        color: white;
+        text-align: center;
+        padding: 1% 0;
+        font-size: 1vw;
+    }
+
+
+
+    .researcher {
+        font-size: 3vw;
+        font-weight: 600;
+        text-align: left;
+        margin-top: 5%;
+
+    }
+
+    .select {
+        text-align: left;
+        font-size: 1.3vw;
+        margin-bottom: 2%;
+    }
+
+    .study {
+        font-size: 1.5vw;
+        margin-bottom: 5%;
+    }
+
+    .input {
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 2%;
+    }
+
+    .accept {
+        float: right;
+        font-size: 1vw;
+    }
+
+
+    .upload-image {
+        width: 70%;
+        font-size: 1.8vw;
+        margin: auto;
+        padding: 1%;
+    }
+
+    .submit {
+        margin-top: 2%;
+        font-size: 2vw;
+        color: white;
+        background: #14B8D4;
+        border-style: none;
+        padding: 2% 1%;
+    }
+
+    .upload {
+        padding: 10% 2%;
+        color: #14B8D4;
+        background: white;
+        width: 100%;
+        text-align: center !important;
+        font-size: 2vw;
+
+    }
+
+    .skip {
+        text-align: center;
+        padding: 3%;
+    }
+
+    .skip a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.5vw;
+    }
+
+    .upload button {
+        width: 50%;
+        margin-top: 10%;
+        border: none;
+        background-color: #14B8D4;
+        color: white;
+        text-align: center;
+    }
+
+    .researcher-option {
+
+        margin-top: 2%;
+        font-size: 1.5vw;
+        padding: 3% 0%;
+    }
+
+    .right-arrow {
+        display: block;
+        height: 2.5vw;
+        margin: auto;
+    }
+
+    .login {
+        color: #14B8D4;
+        padding: 5% 0%;
+        font-size: 1vw;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .researcher {
+        font-size: 6vw;
+        font-weight: 600;
+        text-align: left;
+
+    }
+
+    .select {
+        text-align: left;
+        font-size: 3vw;
+    }
+
+    label {
+        width: 116%;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label {
+        top: -1%;
+        transform: scale(.6, .6);
+        font-weight: bold;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .researcher {
+        font-size: 6vw;
+        font-weight: 600;
+        text-align: left;
+
+    }
+
+    .select {
+        text-align: left;
+        font-size: 3vw;
+    }
+
+    label {
+        width: 116%;
+    }
+
+
+
+}

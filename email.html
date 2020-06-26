@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Ziad Karim">
+    <title>Digital Agency</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-12">
+                <img src="images/Logo.png" alt="" class="img-fluid logo">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 researcher">
+
+                Check your email!
+
+            </div>
+            <div class="col-12 study">
+                We’ve <span style="color:#14B8D4; ">sent</span> you a 6-digit confirmation code to davids@materialszone.zone
+                It will expire shortly, so be quick to enter it.
+            </div>
+        </div>
+
+        <form action="">
+            <div class="row email">
+                <div class="offset-1 col-5">
+                    <div class="row input-group" style="column-gap: 0!important;">
+                        <div class=" col-4 verif padding-0">
+                            <input type="text" style="width: 100%;  border-radius: 10px 0px 0px 10px" maxlength="1" class="inputs">
+                        </div>
+                        <div class="col-4 verif padding-0">
+                            <input type="text" style="width: 100%;" maxlength="1" class="inputs2">
+                        </div>
+                        <div class=" col-4 verif padding-0">
+                            <input type="text" style="width: 100%;   border-radius: 0px 10px 10px 0px" maxlength="1" class="inputs3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 middle">-</div>
+
+                <div class="col-5">
+                    <div class="row input-group" style="column-gap: 0!important;">
+                        <div class=" col-4 verif padding-0">
+                            <input type="text" style="width: 100%;  border-radius: 10px 0px 0px 10px" maxlength="1" class="inputs4">
+                        </div>
+                        <div class="col-4 verif padding-0">
+                            <input type="text" style="width: 100%;" maxlength="1" class="inputs5">
+                        </div>
+                        <div class="col-4 verif padding-0">
+                            <input type="text" style="width: 100%;   border-radius: 0px 10px 10px 0px" maxlength="1" class="inputs6">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 email-info">
+                    keep this window open while checking for your code. <br> Remember to try your spam folder!
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        $(".inputs").keyup(function() {
+            if (this.value.length == this.maxLength)
+                $('.inputs2').focus();
+        });
+        $(".inputs2").keyup(function() {
+            if (this.value.length == this.maxLength)
+                $('.inputs3').focus();
+        });
+        $(".inputs3").keyup(function() {
+            if (this.value.length == this.maxLength)
+                $('.inputs4').focus();
+        });
+        $(".inputs4").keyup(function() {
+            if (this.value.length == this.maxLength)
+                $('.inputs5').focus();
+        });
+        $(".inputs5").keyup(function() {
+            if (this.value.length == this.maxLength)
+                $('.inputs6').focus();
+        });
+        $(".inputs6").keyup(function() {
+            if (this.value.length == this.maxLength)
+                $('.email').focus();
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Ziad Karim">
+    <title>Digital Agency</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-12">
+                <img src="images/Logo.png" alt="" class="img-fluid logo">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 researcher" style="text-align: center">
+
+                Typical measurements type?
+            </div>
+            <div class="col-12 study measurement-sub " style="text-align: center">
+                You will be able to change all preferences in settings once logged in
+            </div>
+            <div class="col-7">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+
+                <button type="button" class="no-bg" data-toggle="tooltip" data-placement="left" title="Measurement Sample">
+
+                    <img src="images/qmark.png" alt="" class="qmark">
+                </button>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+
+                    <div class="upload">
+                        Measurement<br>File Sample<br>
+
+                        <button>Upload</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+
+                <button type="button" class="no-bg " data-toggle="tooltip" data-placement="top" title="Image of Expected Plot">
+
+                    <img src="images/qmark.png" alt="" class="qmark">
+                </button>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <div class="upload">
+                        Image of<br>Expected Plot<br>
+                        <button type="submit">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row credential" style="margin-top: 2%;">
+            <div class="col-12">
+                <form action="work.html">
+                    <div class="input-box">
+                        <input type="text" class="input" required="">
+                        <label>Instrument name</label>
+                    </div>
+                    <img src="images/qmark.png" alt="" class="qmark qmark-right" data-toggle="tooltip" data-placement="top" title="Image of Expected Plot">
+                    <div class="input-box">
+                        <input type="text" class="input" required="">
+                        <label>Instrument model</label>
+                    </div>
+
+                    <img src="images/qmark.png" alt="" class="qmark qmark-right" data-toggle="tooltip" data-placement="top" title="Image of Expected Plot" onclick=".tooltip('show');">
+                    <input type="submit" class="input submit" value="Continue" style="">
+                </form>
+            </div>
+        </div>
+        <div class="col-12 skip">
+            <a href="work.html">skip &gt;</a>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body></html>
